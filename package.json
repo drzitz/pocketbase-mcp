@@ -10,7 +10,7 @@
     "pocketbase-mcp": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod +x build/index.js",
+    "build": "tsc",
     "prepare": "npm run build",
     "test": "vitest run --config vitest.unit.config.ts",
     "test:watch": "vitest --config vitest.unit.config.ts",
